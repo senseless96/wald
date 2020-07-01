@@ -1,0 +1,134 @@
+body{
+    font-size: 2vh;
+    font-family: arial;
+    text-align:center;
+}
+
+#container{
+    margin: 35vh auto;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    position: relative;
+}
+#start{
+    margin: 35vh auto;
+    height: auto;
+    width : 700px;
+    text-align: center;
+    position: relative;
+    color : white;
+    cursor: pointer;
+}
+
+
+#qImg{
+    width : 200px;
+    height : 200px;
+    position: absolute;
+    left : 0px;
+    top : 0px;
+}
+#qImg img{
+    width : 200px;
+    height : 200px;
+    border-top-left-radius: 5px;
+}
+
+#question{
+    font-family: Kalam;
+    font-weight:bold;
+    color: white;
+    width:500px;
+    height : 125px;
+    position: absolute;
+    right:0;
+    top:0;
+}
+#question p{
+    margin : 0;
+    padding : 20px;
+    font-size: 2.5vh;
+    line-height: normal;
+}
+
+#choices{
+    width : 480px;
+    position: absolute;
+    right : 0;
+    top : 150px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.choice{
+    font-weight:bold;
+    color: #f2b52b;
+    background-color: white;
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid;
+    border-color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    padding : 5px;
+}
+
+#timer{
+    position: absolute;
+    height : 50px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 2vh;
+}
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left : 25px;
+}
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: #40a640;
+    margin-top : -10px;
+    margin-left : 25px;
+}
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:10px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    background-color: #D49663;
+    margin : 20px auto;
+    height: 300px;
+    width : 700px;
+    border-radius: 5px;
+    position: relative;
+    display: none;
+    text-align:center;
+}
+#scoreContainer img{
+    display: flex;
+    position: absolute;
+    margin-left:225px;;
+    width:250px;
+    height:250px;
+}
